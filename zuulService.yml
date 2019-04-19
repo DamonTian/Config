@@ -2,3 +2,4 @@ zuul:
   routes:
     configService:
       path: /config/**
+      serviceId: configService
