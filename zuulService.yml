@@ -3,3 +3,9 @@ zuul:
     configService:
       path: /config/**
       serviceId: configService
+  host:
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 10000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
