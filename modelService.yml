@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:mysql://mysql1:3306/searchnews
+    username: damon
+    password: tianhanhua
