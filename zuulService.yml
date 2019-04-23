@@ -1,8 +1,8 @@
 zuul:
   routes:
-    configService:
-      path: /config/**
-      serviceId: configService
+    appService:
+      path: /app/**
+      serviceId: appService
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 10000
