@@ -3,6 +3,9 @@ zuul:
     appService:
       path: /app/**
       serviceId: appService
+    crawlService:
+      path: /search/**
+      serviceId: crawlService
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 10000
