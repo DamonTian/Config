@@ -6,6 +6,9 @@ zuul:
     crawlService:
       path: /search/**
       serviceId: crawlService
+    notificationService:
+      path: /notification/**
+      serviceId: notificationService
   host:
     connect-timeout-millis: 15000
     socket-timeout-millis: 10000
